@@ -1,0 +1,33 @@
+object:
+type	0/1	1 bit
+
+type 0:
+texture		5 bits
+height		12 bits
+vert1 x		12 bits
+vert1 y		12 bits
+vert1 z		12 bits
+vert2 x		12 bits
+vert2 y		12 bits
+vert2 z		12 bits
+
+type 1:
+texture		5 bits
+subtype	0tm2	2 bits
+width		10 bits
+height		12 bits
+vert1 x		12 bits
+vert1 y		12 bits
+vert1 z		12 bits
+
+
+12 bits:
+
+4096		0.0 - 409.6
+
+
+level:
+nr of objects	12 bits int
+
+15 * 9
+100

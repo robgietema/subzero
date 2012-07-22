@@ -1,0 +1,28 @@
+- Close combat
+- fixed width items/critters
+
+- levels
+- start/cut scenes
+
+// TODO
+/*
+- Enemy die anim
+- Splash damage
+- bullit/wall collision
+- Shadows
+- Weather
+- Bullit hit anim
+- Shadows
+- Mouse movement
+- Doors
+- Lifts
+- Floor collision
+- Contact damage
+- Water
+- FOG
+- Moving objects
+- Bullit marks
+- Jump pads
+- Look up/down
+*/
+

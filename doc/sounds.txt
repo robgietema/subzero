@@ -1,0 +1,16 @@
+weapon sounds:
+- knuppel
+- sneeuwballen
+- ijspegels
+- vuurbal
+
+item oppakken
+collision
+
+enemy spot jou
+
+lopen
+
+
+
+113, 47 collision

@@ -1,0 +1,30 @@
+<html><head><script language="Javascript" src="engine.js"></script>
+<script>
+document.onload=function(e){Init(e)};
+document.onkeydown=function(e){KeyDownHandler(e)};
+document.onkeyup=function(e){KeyUpHandler(e)};
+</script>
+<style>
+td{font-family:Verdana;font-weight:bold;font-size:12px;color:white}
+b{font-family:Verdana;font-weight:bold;font-size:16px;color:#00FF00}
+p{font-family:Verdana;font-weight:bold;font-size:12px;color:white}
+</style>
+	</head>
+	<body onload="Init" onkeydown="KeyDownHandler" onkeyup="KeyUpHandler">
+		<embed id=sm src="m.mid" autoplay=true loop=true style="position: absolute; top: 1000; left:0;">
+		<embed id=sh src="h.mp3" autoplay=false loop=false style="position: absolute; top: 1000; left:0;">
+		<embed id=si src="i.mp3" autoplay=false loop=false style="position: absolute; top: 1000; left:0;">
+		<embed id=sw1 src="w1.mp3" autoplay=false loop=false style="position: absolute; top: 1000; left:0;">
+		<embed id=sw2 src="w2.mp3" autoplay=false loop=false style="position: absolute; top: 1000; left:0;">
+<div style="z-index:999;position: absolute;top:10px;left:10px;width:90;height:460;background-color:#000000;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);"></div>
+
+<div id="message" style="z-index:1999;position: absolute;top:150px;left:150px;width:340;height:180;background-color:#000000;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);padding:10"><b id="title">New Game</b><br/><p id="text">This game is entirely written in JavaScript (not Java) and DHTML.<br/><br/>Code: Tycoon<br/>Music: Neo<br/>GFX: Catharsis</p></div>
+
+<table style="position:absolute;z-index:999;top:10px;left:20px;width:70;height:460;">
+<tr><td>SCORE<br/><b id="hs"></b></td></tr>
+<tr><td>AMMO<br/><b id="ha"></b></td></tr>
+<tr><td>HEALTH<br/><b id="hh"></b></td></tr>
+<tr><td>ARMOR<br/><b id="hr"></b></td></tr>
+</table>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+objectmode
+q	prev obj
+w	next obj
+e	height up
+d	height down
+t	texture cycle
+y	type cycle
+h	subtype cycle
+s	width down
+f	width up

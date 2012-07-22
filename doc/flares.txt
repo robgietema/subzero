@@ -1,0 +1,14 @@
+	size		color			width	offset	percentage
+0	groot		blauw rood trans	320	359	1
+1	middel		geel			160	309	0.8607
+2	klein		blauw trans blauw	44	255	0.7103
+3	middel		geel trans geel		112	228	0.6351
+4	middel		geel			64	216	0.6017
+5	klein		wit			14	199	0.5543
+6	klein		wit			10	136	0.3788
+7	middel		geel			30	121	0.3370
+8	middel		blauw			44	90	0.2507
+9	middel/groot	blauw			92	82	0.2284
+10	middel		blauw			26	75	0.2089
+?	middel					124	0	0
+11	middel		lichtblauw trans	60	-50	-0.1393
